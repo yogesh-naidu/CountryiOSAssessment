@@ -13,7 +13,7 @@ final class CountryListViewController: UIViewController {
     private lazy var activityIndicator: UIActivityIndicatorView = {
         var indicator = UIActivityIndicatorView(style: .medium)
         indicator.hidesWhenStopped = true
-        return activityIndicator
+        return indicator
     }()
    
     private let viewModel = CountriesViewModel()
